@@ -16,10 +16,19 @@ class Character:
         self.hp_max = hp_max
         self.damage = damage
 
+    def take_damage(self, hp_loss:int) -> None:
+        """Take damage and reduce hp"""
+        self._hp -= hp_loss #Reduce hp by teh damage taken
+        self._hp = (max(self._hp, 0)) #The total hp cannot be lower than 0
+
     def attack(self, target) -> None:
         """Attack and deal damage to target character"""
-        target._hp -= self.damage
-        target._hp = max(target._hp, 0)  # Target hp cannot end up lower than 0
+        target.take_damage(self.damage) #Uses the take_damage to reduce the hp 
+
+    def heal(self, hp_heal:int) -> None:
+        """Can heal or increase the total hp of the caracter"""
+        self.hp += hp_heal #Increases the hp 
+        self.hp = (min(self.hp, 100)) #The totalt hp cant be higher than the maximum hp of the carater
 
     def introduce(self) -> None:
         """Creates string that introduces character"""
@@ -37,3 +46,5 @@ class Character:
     def hp(self) -> int:
         """Public read-only property to inspect HP without allowing direct, unsafe edits."""
         return self._hp
+
+    def is_alive(self) -> 
