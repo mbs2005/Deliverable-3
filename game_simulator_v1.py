@@ -27,8 +27,8 @@ class Character:
 
     def heal(self, hp_heal:int) -> None:
         """Can heal or increase the total hp of the caracter"""
-        self.hp += hp_heal #Increases the hp 
-        self.hp = (min(self.hp, 100)) #The totalt hp cant be higher than the maximum hp of the carater
+        self._hp += hp_heal #Increases the hp 
+        self._hp = (min(self.hp, self.hp_max)) #The totalt hp cant be higher than the maximum hp of the carater
 
     def introduce(self) -> None:
         """Creates string that introduces character"""
@@ -47,6 +47,9 @@ class Character:
         """Public read-only property to inspect HP without allowing direct, unsafe edits."""
         return self._hp
 
-    def is_alive(self) -> 
+    def is_alive(self) -> bool:
+        """Checks if the caracter is alive by true or false"""
+        return self.hp >0 
+    
     
     
