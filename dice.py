@@ -19,7 +19,7 @@ class Dice:
         "Allows a dice instance to be called directly like a function to roll it"
         return self.roll()
     
-        """# Try to use the dice function
+"""# Try to use the dice function
 terning = Dice()
 print(terning.roll())
 print(terning)
