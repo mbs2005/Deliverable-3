@@ -46,7 +46,14 @@ class Character:
     def hp(self) -> int:
         """Public read-only property to inspect HP without allowing direct, unsafe edits."""
         return self._hp
+<<<<<<< HEAD
     @property
     def is_alive(self) -> bool:
         """Checks if the caracter is alive by ether true or false""" 
         return self._hp > 0
+=======
+
+    def is_alive(self) -> 
+    
+    
+>>>>>>> 02d2251b21e53fbce26a5d16e5cee092325d762f
