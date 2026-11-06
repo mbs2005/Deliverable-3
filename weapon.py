@@ -15,3 +15,4 @@ class Weapon:
     def __repr__(self) -> str:
         "Return a string representation of the weapon object"
         return f"Weapon(name = '{self.name}', damage_dice = {self.damage_dice})"
+    

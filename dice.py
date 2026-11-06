@@ -18,3 +18,11 @@ class Dice:
     def __call__(self) -> int:
         "Allows a dice instance to be called directly like a function to roll it"
         return self.roll()
+    
+        """# Try to use the dice function
+terning = Dice()
+print(terning.roll())
+print(terning)
+
+d20 = Dice(sides = 20)
+print(d20())"""
