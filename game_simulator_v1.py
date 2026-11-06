@@ -49,3 +49,4 @@ class Character:
     @property
     def is_alive(self) -> bool:
         """Checks if the caracter is alive by ether true or false""" 
+        return self._hp > 0
