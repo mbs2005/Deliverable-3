@@ -1,0 +1,34 @@
+
+* d74f9a7 (HEAD -> main, origin/main, origin/HEAD) Fikk til å kjøre en simulering
+* c095c36 LOL
+* 0a0dc29 sletta noe greier
+*   ec4e712 Merge branch 'main'
+|\  
+| * e0afc08 charachter file
+| * 4bfca4a battle file
+* | 2dd5fa5 div
+|/  
+* e30eff7 taks 5 yeh
+*   dfeffe5 Merge branch 'main'
+|\  
+| * e5f3090 la til oppgave 4 igjen
+* | a355fb4 Update notebook
+|/  
+* b4b82ac g
+* 58c917c div2
+* 0ff7dfa div
+* 5f2abc9 la til oppgave 4
+* 511d60d quick fix
+* 9d4c24e la inn dice, weapon og i delverable
+* 5fa4c8d alive
+* 6238fda jævla dritt github
+*   2f3fbd4 b
+|\  
+| * 02d2251 tester magnus
+| * 0013039 la inn oppgave 2
+* | ab3f011 test
+* | 6f2231e alive
+|/  
+* 0b2cdd4 push me
+* acabfb3 start
+* 08294c1 Initial commit
